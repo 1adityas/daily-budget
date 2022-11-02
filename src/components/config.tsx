@@ -21,6 +21,8 @@ function Config(prop: any) {
           src={require("../assets/gear.png")}
         />
         {/* <ConfigOptions></ConfigOptions> */}
+
+        
       </div>
     </div>
   );
