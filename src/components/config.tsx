@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../global-css.css";
+import "./configModal";
+import ConfigModal from "./configModal";
 
 function ConfigOptions(props: any) {
   return <></>;
@@ -7,6 +9,7 @@ function ConfigOptions(props: any) {
 
 function Config(prop: any) {
   const [enable, setEnable] = useState(false);
+
 
   // console.log(prop);
   return (
@@ -20,9 +23,10 @@ function Config(prop: any) {
           }}
           src={require("../assets/gear.png")}
         />
+        <ConfigModal show={enable}></ConfigModal>
         {/* <ConfigOptions></ConfigOptions> */}
 
-        
+
       </div>
     </div>
   );

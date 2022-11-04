@@ -7,7 +7,7 @@ import bgVideo from "./assets/bgVideo.mp4";
 function App() {
   return (
     <div className="mainBody">
-      <video src={bgVideo} autoPlay loop muted></video>
+      {/* <video src={bgVideo} autoPlay loop muted/> */}
       <div className="mainHeader">
         {" "}
         <div className="bodyFlex">
