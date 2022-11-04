@@ -23,10 +23,8 @@ function Config(prop: any) {
           }}
           src={require("../assets/gear.png")}
         />
-        <ConfigModal show={enable}></ConfigModal>
+        <ConfigModal show={enable} />
         {/* <ConfigOptions></ConfigOptions> */}
-
-
       </div>
     </div>
   );

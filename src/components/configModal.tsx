@@ -1,7 +1,7 @@
 export default function configModal(props:any){
     console.log(props.show)
-    return <div>
+    return props.show?(<div className="confMdl">
 
         <h1>yo</h1>
-    </div>
+    </div>):(<div></div>)
 }

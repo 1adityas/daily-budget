@@ -9,7 +9,6 @@ function Header(prop: any) {
         <h1>₹ 500</h1>
         <hr></hr>
         <h1>₹ 500</h1>
-
       </div>
     </div>
   );

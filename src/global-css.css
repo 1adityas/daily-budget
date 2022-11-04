@@ -43,10 +43,11 @@ video {
   color: white;
   /* border: 2px solid red; */
 }
+
+/* config comp */
+
 #gearImg {
-  /* bottom: 2vh; */
   height: 5em;
-  /* border: 1px solid red; */
 }
 .divCenter {
   width: 100vw;
@@ -57,4 +58,10 @@ video {
   align-content: center;
   justify-content: center;
   /* border: 1px dashed blue; */
+}
+
+/* configModal */
+.confMdl{
+  position: absolute;
+  bottom: 11Vh;
 }
