@@ -12,7 +12,7 @@ function Config(prop: any) {
       {/* its not center the gear */}
       <div className="divCenter">
         <div className="divFlx">
-        <ConfigModal show={enable} />
+        <ConfigModal show={enable} cur={prop.cur} setCur={prop.setCur} total={prop.total} setTotal={prop.setTotal}/>
 
           <img
             id="gearImg"

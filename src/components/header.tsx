@@ -2,13 +2,13 @@ import React from "react";
 import "../global-css.css";
 
 function Header(prop: any) {
-  // console.log(prop);
+  // console.log(prop.cur); 
   return (
     <div>
       <div className="headerBoi">
-        <h1>₹ 500</h1>
+        <h1>₹ {prop.total}</h1>
         <hr></hr>
-        <h1>₹ 500</h1>
+        <h1>₹ {prop.cur}</h1>
       </div>
     </div>
   );
