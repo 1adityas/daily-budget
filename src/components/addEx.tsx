@@ -6,7 +6,7 @@ export default function AddEx() {
     <div className="exCard">
       <label>
         <input className="addExText" ref={inputRef}></input>
-        <button onClick={(e) => {console.log(inputRef.current?.value)}}>add</button>
+        <button id="add" onClick={(e) => {console.log(inputRef.current?.value)}}>add</button>
       </label>
     </div>
   );
